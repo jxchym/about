@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact</title>
+        <link rel="icon" type="image/x-icon" href="Toro.ico">
+    </head>
+<header>
+    <h1>Contact</h1>
+</header>
+<nav>
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='about.html'">About me</button>
+    <button onclick="location.href='gallery.html'">Gallery</button>
+    <button onclick="location.href='portfolio.html'">Portfolio</button>
+    <button onclick="location.href='contact.html'">Contact</button>
+</nav>
+<main>
+    <h1 class="center">Contact me!</h1>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" id="Submit">Submit</button>
+    </form>
+
+    <div class="container">
+        <h2>You can also reach me at:</h2>
+        <ul>
+            <li>Email: jachym.macal@gmail.com
+            <li>Phone: +420 123 456 789
+            <li> Github or instagram (bottom of the page)
+            <li> Discord: jxchym
+        </ul> 
+    </div>
+    
+</main>
+<footer>
+    <p>Pololetní projekt B06 - Jáchym Macál</p>
+    <a href="https://www.instagram.com/jachyy_m/" target="_blank">
+        <img src="img/instagram.png" alt="instagram">
+    </a>
+    <a href="https://github.com/jxchym" target="_blank">
+        <img src="img/github.png" alt="github">
+    </a>
+</footer>
+</html>
